@@ -11,7 +11,7 @@ public class DatabaseConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //consider to create a database named contacts 
-            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/contacts ", "root", "");
+            Connection connect = DriverManager.getConnection("jdbc:mysql://localhost/contacts ", "root", "kkuunn123");
             return connect;
         } catch (Exception var1) {
             var1.printStackTrace();
